@@ -14,15 +14,24 @@ namespace MapEditor
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class Game1 : Microsoft.Xna.Framework.Game
+    public class MapEditor : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Game1()
+        public MapEditor()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.IsFullScreen = false;
+            Window.AllowUserResizing = true;
+            Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
+
             Content.RootDirectory = "Content";
+        }
+
+        void Window_ClientSizeChanged(object sender, EventArgs e)
+        {
+            // Make changes to handle the new window size.
         }
 
         /// <summary>
