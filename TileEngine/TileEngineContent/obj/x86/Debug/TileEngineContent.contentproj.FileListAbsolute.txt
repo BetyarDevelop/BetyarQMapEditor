@@ -1,0 +1,4 @@
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngineContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngineContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngineContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngineContent\obj\x86\Debug\ResolveAssemblyReference.cache

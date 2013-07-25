@@ -1,0 +1,48 @@
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part2_tileset.xnb
+C:\Users\Kurt\Documents\Visual Studio 2010\Projects\XNAResources\TileEngine\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part3_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part2_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part3_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part4_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Fonts\Pericles6.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\hilight.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries4 (1)\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\mousemap.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part2_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part3_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part4_tileset.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\hilight.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\mousemap.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\Content\Fonts\Pericles6.xnb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+C:\Users\Kurt\Documents\Downloads\Chrome\tileengineseries7_fix\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part1_tileset.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part2_tileset.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part3_tileset.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\part4_tileset.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\hilight.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Textures\TileSets\mousemap.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\Content\Fonts\Pericles6.xnb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\TileEngine.exe
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\bin\x86\Debug\TileEngine.pdb
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\obj\x86\Debug\TileEngine.exe
+C:\Users\badar\Downloads\tileengineseries7\TileEngine\TileEngine\obj\x86\Debug\TileEngine.pdb
