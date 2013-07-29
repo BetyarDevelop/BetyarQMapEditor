@@ -23,6 +23,13 @@ namespace TileEngine
 
         static int CAMERA_SPEED = 7;
 
+        int selectedTileID = 0;
+        private KeyboardState keyboardState;
+        private MouseState mouseState;
+        private MouseState oldMouseState;
+
+        private SelectorPanel selectPanel;
+
         TileMap myMap;
         int squaresAcross = 17;        
         int squaresDown = 37;
@@ -35,7 +42,6 @@ namespace TileEngine
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-
             graphics.IsFullScreen = false;
             Window.AllowUserResizing = true;
             Window.ClientSizeChanged += new EventHandler<EventArgs>(Window_ClientSizeChanged);
@@ -79,12 +85,15 @@ namespace TileEngine
             Tile.TileSetTexture = Content.Load<Texture2D>(@"Textures\TileSets\part4_tileset");
 
             pericles6 = Content.Load<SpriteFont>(@"Fonts\Pericles6");
+            //pericless6 = Content
 
             Camera.ViewWidth = this.graphics.PreferredBackBufferWidth;
             Camera.ViewHeight = this.graphics.PreferredBackBufferHeight;
             Camera.WorldWidth = ((myMap.MapWidth-2) * Tile.TileStepX);
             Camera.WorldHeight = ((myMap.MapHeight-2) * Tile.TileStepY);
             Camera.DisplayOffset = new Vector2(baseOffsetX, baseOffsetY);
+
+            selectPanel.addTexture(Tile.TileSetTexture);
             // TODO: use this.Content to load your game content here
         }
 
@@ -94,6 +103,7 @@ namespace TileEngine
         /// </summary>
         protected override void UnloadContent()
         {
+            Content.Unload();
             // TODO: Unload any non ContentManager content here
         }
 
@@ -104,6 +114,32 @@ namespace TileEngine
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
+            keyboardState = Keyboard.GetState();
+
+            if(keyboardState.IsKeyDown(Keys.Q))
+            {
+                selectedTileID = 0;
+            }
+            else if(keyboardState.IsKeyDown(Keys.W))
+            {
+                selectedTileID = 1;
+            }
+            else if(keyboardState.IsKeyDown(Keys.E))
+            {
+                selectedTileID = 2;
+            }
+
+            mouseState = Mouse.GetState();
+
+            if (mouseState.LeftButton == ButtonState.Pressed && oldMouseState.LeftButton == ButtonState.Released && !selectPanel.Rect.Contains(new Point( mouseState.X, mouseState.Y)))
+            {
+                Vector2 MouseWorldPos = Camera.ScreenToWorld(new Vector2(mouseState.X, mouseState.Y));
+                Point MouseCell = myMap.WorldToMapCell(new Point((int)MouseWorldPos.X, (int)MouseWorldPos.Y));
+                myMap.Rows[MouseCell.Y].Columns[MouseCell.X].TileID = selectedTileID;
+            }
+
+            oldMouseState = mouseState;
+
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
@@ -226,27 +262,36 @@ namespace TileEngine
                 }
             }
 
+            Point mousePoint = new Point(Mouse.GetState().X, Mouse.GetState().Y);
 
-            Vector2 hilightLoc = Camera.ScreenToWorld(new Vector2(Mouse.GetState().X, Mouse.GetState().Y));
-            Point hilightPoint = myMap.WorldToMapCell(new Point((int)hilightLoc.X, (int)hilightLoc.Y));
+            if (!selectPanel.Rect.Contains(mousePoint))
+            {
+                Vector2 hilightLoc = Camera.ScreenToWorld(new Vector2(Mouse.GetState().X, Mouse.GetState().Y));
+                Point hilightPoint = myMap.WorldToMapCell(new Point((int)hilightLoc.X, (int)hilightLoc.Y));
 
-            int hilightrowOffset = 0;
-            if ((hilightPoint.Y) % 2 == 1)
-                hilightrowOffset = Tile.OddRowXOffset;
+                //spriteBatch.DrawString(pericles6, hilightPoint.X.ToString() + " " + hilightPoint.Y.ToString(), new Vector2(10, 10), Color.White);
 
-            spriteBatch.Draw(
-                            hilight,
-                            Camera.WorldToScreen(
-                            new Vector2(
-                                (hilightPoint.X * Tile.TileStepX) + hilightrowOffset,
-                                (hilightPoint.Y + 2) * Tile.TileStepY)),
-                            new Rectangle(0, 0, 64, 32),
-                            Color.White * 0.3f,
-                            0.0f,
-                            Vector2.Zero,
-                            1.0f,
-                            SpriteEffects.None,
-                            0.0f);
+                int hilightrowOffset = 0;
+                if ((hilightPoint.Y) % 2 == 1)
+                    hilightrowOffset = Tile.OddRowXOffset;
+
+                spriteBatch.Draw(
+                                hilight,
+                                Camera.WorldToScreen(
+                                new Vector2(
+                                    (hilightPoint.X * Tile.TileStepX) + hilightrowOffset,
+                                    (hilightPoint.Y + 2) * Tile.TileStepY)),
+                                new Rectangle(0, 0, 64, 32),
+                                Color.White * 0.3f,
+                                0.0f,
+                                Vector2.Zero,
+                                1.0f,
+                                SpriteEffects.None,
+                                0.0f);
+            }
+
+            selectPanel.Draw(spriteBatch);
+
             spriteBatch.End();
             // TODO: Add your drawing code here
 
